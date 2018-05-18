@@ -1,5 +1,7 @@
-import * as React from 'react';
-import { Formik } from 'formik';
+// @flow
+
+import * as React from "react";
+import { Formik } from "formik";
 
 const { Component } = React;
 
@@ -11,3 +13,5 @@ class AddQuote extends Component<Props, State> {
     return <div />;
   }
 }
+
+export default AddQuote;
